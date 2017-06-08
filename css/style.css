@@ -1,0 +1,368 @@
+body,div,a,h1,h2,h3,i,span,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "微软雅黑";
+    background: #fff;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+.clear{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.float-left{
+    float: left;
+    width: 100%;
+}
+/* 页头 */
+#head{
+    width: 100%;
+    min-width: 1200px;
+    height: 68px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+ }
+#head .head-bg{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+#head .head-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+#head .head-text img{
+    margin: 18px 0 12px;
+}
+#head .por-nav{
+    height: 100%;
+}
+#head .por-nav .por-nav-one{
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    height: 100%;
+    line-height: 78px;
+    padding: 0 3%;
+    background: transparent;
+}
+#head .por-nav .por-nav-one:hover{
+    cursor: pointer;
+    text-decoration: none;
+ }
+#head .por-nav #active{
+    color: #fff;
+    background: #f84343;
+}
+/* 主体内容 */
+.por-content{
+    width: 100%;
+    min-width: 1200px;
+}
+.por-content .mains{
+    width: 100%;
+    /*overflow: hidden;*/
+}
+/* 页脚 */
+.por-content .foot{
+    width: 100%;
+    padding: 60px 0;
+}
+.por-content .foot p{
+    width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+}
+.por-content .foot p .fa{
+    color: #F14242;
+    font-size: 24px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 8px;
+}
+#arr-top{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 999;
+    display: none;
+}
+#arr-top:hover{
+    cursor: pointer;
+}
+
+/*  首页  */
+.por-content .mains>img{
+    width: 100%;
+    height: 100%;
+}
+.por-content .pro-one{
+    position: relative;
+    /*min-height: 460px;*/
+}
+.por-content .pro-one .top-text{
+    position: absolute;
+    width: 100%;
+    /*min-height: 360px;*/
+    text-align: center;
+    top: 50%;
+    margin-top: -11.5%;
+}
+.por-content .pro-one .top-text p{
+    color: #fff;
+    margin-top: 15px;
+}
+.por-content .pro-one .top-text img{
+    width: 25%;
+}
+.por-content .pro-one .top-text .b-font{
+    font-size: 50px;
+    margin-top: 3.5%;
+ }
+.por-content .pro-one .top-text .m-font{
+    font-size: 26px;
+    margin-top: 1.5%;
+    line-height: 45px;
+}
+/* 公司介绍 */
+.por-content .pro-two .intro-text{
+    width:70%;
+    border:2px solid #F84343;
+    position:relative;
+    padding: 80px 75px 60px;
+    margin: 160px auto;
+}
+.por-content .pro-two .b-text{
+    font-size: 72px;
+    color: #2A2A2A;
+    position:absolute;
+    top:-12px;
+    left:50%;
+    background-color:#ffffff;
+    line-height:25px;
+    text-align:center;
+    padding: 0 20px;
+    margin-left: -164px;
+}
+.por-content .pro-two p{
+    font-size: 18px;
+    line-height: 31px;
+    margin: 30px 0;
+}
+/*  产品介绍  */
+.por-content .pro-three .all-goods{
+    width: 100%;
+    margin-bottom: 0px;
+    float: left;
+}
+.por-content .pro-three .all-goods > div{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #fff;
+    text-align: center;
+}
+.por-content .pro-three .all-goods > div.top-one{
+    background: #FF5656;
+}
+.por-content .pro-three .all-goods > div.top-two{
+    background: #F84D4D;
+}
+.por-content .pro-three .all-goods > div.top-three{
+    background: #FA3E3E;
+}
+.por-content .pro-three .all-goods > div h1{
+    height: 85px;
+    font-size: 73px;
+    line-height: 74px;
+}
+.por-content .pro-three .all-goods > div p{
+    font-size: 24px;
+    line-height: 45px;
+    padding: 0px 13%;
+    margin-top: 30px;
+}
+.por-content .pro-four{
+    padding: 8% 6% 11%;
+}
+.por-content .pro-four h1{
+    font-size: 72px;
+    width: 100%;
+    text-align: center;
+    color: #2a2a2a;
+}
+.por-content .pro-four .stage-process{
+    float: left;
+    width: 100%;
+    margin-top: 8%;
+    margin-bottom: 0px;
+}
+.por-content .pro-four .stage-process > div{
+    text-align: center;
+}
+.por-content .pro-four .stage-process > div .pro-img{
+    height: 198px;
+    line-height: 198px;
+}
+.por-content .pro-four .stage-process > div h3{
+    font-size: 30px;
+    margin: 35px 0;
+}
+.por-content .pro-four .stage-process > div .pro-text{
+    font-size: 18px;
+    line-height: 30px;
+}
+/*  APP下载  */
+.por-content .pro-five{
+    position: relative;
+}
+.por-content .pro-five .top-text{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    margin-top: -15%;
+    background: transparent;
+}
+.por-content .pro-five .top-text h1{
+    font-size: 80px;
+    color: #FA3E3E;
+}
+.por-content .pro-five .top-text p{
+    font-size: 36px;
+    color: #fff;
+    margin: 4% 0 12.5%;
+}
+.por-content .mains .down-sys-btn{
+    display: block;
+    background: transparent;
+    width: 320px;
+    text-align: center;
+    height: 90px;
+    line-height: 82px;
+    font-size: 32px;
+    color: #fff;
+    border: 4px solid #fff;
+    border-radius: 45px;
+    margin-top: 43px;
+}
+.por-content .mains .down-sys-btn:first-child{
+    margin-top: 0px;
+}
+.por-content .mains .down-sys-btn:hover{
+    background: #f84343;
+    border: 4px solid #f84343;
+    text-decoration: none;
+}
+.por-content .mains .down-sys-btn .fa{
+    font-size: 35px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.por-content .pro-five .top-text .down-sys-btn{
+    margin-top: 5.5%;
+}
+.por-content .pro-six{
+    width: 85%;
+    margin: 0px auto;
+    padding: 10.5% 0 5%;
+}
+.por-content .pro-six .adv-tit{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 7%;
+}
+.por-content .pro-six .adv-tit p{
+    font-size: 30px;
+    color: #EE4242;
+    margin-top: 10px;
+}
+.por-content .pro-six .stage-adv{
+    width: 100%;
+    float: left;
+}
+.por-content .pro-six .stage-adv > div{
+    padding-left: 10%;
+    padding-right: 0px;
+    height: 218px;
+    float: left;
+}
+.por-content .pro-six .stage-adv > div .adv-icon{
+    float: left;
+}
+.por-content .pro-six .stage-adv > div .adv-text{
+    float: left;
+    margin-left: 6%;
+}
+.por-content .pro-six .stage-adv > div .adv-text h4{
+    font-size: 30px;
+}
+.por-content .pro-six .stage-adv > div .adv-text p{
+    font-size: 16px;
+    line-height: 28px;
+}
+/*  招行合作  */
+.por-content .por-seven{
+    position: relative;
+}
+.por-content .por-seven .top-text{
+    position: absolute;
+    top:50%;
+    margin-top: -19%;
+    width: 100%;
+    text-align: center;
+}
+.por-content .por-seven .top-text h2{
+    color: #fff;
+    font-size: 50px;
+}
+.por-content .por-seven .top-text h1{
+    color: #F84343;
+    font-size: 72px;
+    margin: 2.8% 0;
+}
+.por-content .por-seven .top-text p{
+    color: #fff;
+    font-size: 22px;
+    line-height: 50px;
+}
+/* 页脚 */
+.por-content .home-foot{
+    background: #333;
+}
+.por-content .home-foot p{
+    color: #fff;
+}
+
+/*@media screen and (max-width: 1280px){*/
+    /*.por-content .por-seven .top-text h1{*/
+        /*margin: 2.2% 0;*/
+    /*}*/
+    /*.por-content .por-seven .top-text p{*/
+        /*line-height: 40px;*/
+    /*}*/
+/*}*/
+@media screen and (min-width: 966px) and (max-width: 1279px) {
+    .por-content .pro-six .stage-adv > div .adv-text{
+        margin-left: 3%;
+    }
+    .por-content .pro-six .stage-adv > div{
+        padding-left: 0%;
+    }
+}

@@ -1,0 +1,19 @@
+
+.por-content .down-one{
+    background: #48C5C0;
+}
+.por-content .down-two{
+    background: #8AB7FA;
+}
+.por-content .down-three{
+    background: #F38488;
+}
+.por-content .down-four{
+    background: #FBD491;
+}
+
+@media screen and (max-width:1366px) {
+    .por-content .ch-bg .text-box{
+        padding-right: 0%;
+    }
+}
